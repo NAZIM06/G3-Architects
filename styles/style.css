@@ -37,6 +37,7 @@
   padding: 0.75vw 1.4vw;
   font-weight: 500;
   color: #424242;
+  font-size: 1.5vw;
 }
 .banner-section {
   padding: 3vw 20vw;
@@ -115,7 +116,7 @@
   font-size: 1vw;
 }
 /* Features you will love */
-.featres-love {
+.features-love {
   padding: 8vw 0 0 0;
     
 }
@@ -213,31 +214,31 @@
 }
 
 /* sponsors */
-.sponspors {
+.sponsors {
   /* padding: 7vw 0; */
   padding-top: 8vw;
 }
-.sponspors article{
+.sponsors article{
   text-align: center;
 }
-.sponspors h3{
+.sponsors h3{
   font-size: 2.7vw;
   font-weight: 700;
   color: #131313;
 }
-.sponspors p{
+.sponsors p{
   font-size: 1vw;
   font-weight: 400;
   color: #727272;
   padding: 2vw 0;
 }
-.sponspors-logo {
+.sponsors-logo {
   display: flex;
   justify-content: space-evenly;
   padding: 2vw 0;
   align-items: center;
 }
-.sponspors-logo img{
+.sponsors-logo img{
   width: 70%;
 }
 

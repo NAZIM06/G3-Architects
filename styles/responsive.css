@@ -1,5 +1,9 @@
 @media screen and (max-width: 576px) {
  /* header */
+ * p{
+      font-size: 14px;
+    
+ }
   .navber-section {
     display: block;
     text-align: center;
@@ -55,7 +59,7 @@
   .quick-right p,
   .btn {
     margin: 5px;
-    font-size: 18px;
+    font-size: 14px;
     position: static;
     padding: 1rem
   }
@@ -90,7 +94,7 @@
 }
 .mini-box p{
   text-align: center;
-  font-size: 2vw;
+  font-size: 14px;
 }
 .right-woman{
   display: flex;

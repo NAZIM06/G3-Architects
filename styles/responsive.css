@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-
+ /* header */
   .navber-section {
     display: block;
     text-align: center;
@@ -12,7 +12,18 @@
   .navber ul {
     display: block;
     text-align: center;
+    margin-top: 10px;
   }
+  .navber ul li a{
+    font-size: 3vw;
+    line-height: 4vh;
+  }
+
+  .banner-section p{
+      font-size: 2vw;
+  }
+
+/* quick features */
 
   .quick-left {
     display: block;
@@ -21,7 +32,6 @@
 
   .items {
     display: grid;
-    /* grid-template-columns: repeat(1, 1fr); */
     display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +39,8 @@
   }
 
   .item img {
-    width: 500px;
+    width: 350px;
+    margin: 10px 0px;
   }
 
   .quick-right {
@@ -46,6 +57,7 @@
     font-size: 18px;
     position: static;
   }
+/* Features you will love */
 
   .left-headline {
     text-align: center;
@@ -88,6 +100,8 @@
   width: 100%;
   margin: 40px 0;
 }
+/* Some Facts */
+
 .facts h3{
   text-align: center;
   font-size: 2vw;
@@ -109,11 +123,18 @@
 .fact-item:hover {
   transform:none;
 }
+/* sponsors */
+
 .sponsors-logo img{
   margin: 2vw;
 }
 .contact-section img{
   margin-bottom: 4vw;
-  
+}
+/* footer */
+.footer p{
+  font-size: 2vw;
+ 
+}
 
 }

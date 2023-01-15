@@ -56,6 +56,7 @@
     margin: 5px;
     font-size: 18px;
     position: static;
+    padding: 1rem
   }
 /* Features you will love */
 
@@ -100,15 +101,19 @@
   width: 100%;
   margin: 40px 0;
 }
+ .ten-btn span{
+font-size: 1rem;
+ }
 /* Some Facts */
 
 .facts h3{
   text-align: center;
-  font-size: 2vw;
+  font-size: 4vw;
   font-weight: 900;
 }
 .facts p{
-  font-size: 2vw;
+  font-size: 3vw;
+    text-align: center;
 }
 .fact-items, .sponsors-logo, .contact-section{
   display: flex;
@@ -130,6 +135,10 @@
 }
 .contact-section img{
   margin-bottom: 4vw;
+
+}
+.sponsors p{
+ font-size: 1rem; 
 }
 /* footer */
 .footer p{
